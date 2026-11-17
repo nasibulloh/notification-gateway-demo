@@ -1,0 +1,1 @@
+import{r as e}from"./index-D1U1ZJ0y.js";const l=(c,r)=>{const s=e.useRef(void 0),u=e.useRef(c);e.useEffect(()=>{u.current=c});const t=e.useCallback(()=>clearTimeout(s.current),[]),o=e.useCallback((...n)=>{t(),s.current=setTimeout(()=>u.current(...n),r)},[t,r]);return e.useEffect(()=>t,[t]),{call:o,cancel:t}};export{l as u};

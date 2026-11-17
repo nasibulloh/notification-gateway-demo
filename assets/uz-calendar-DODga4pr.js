@@ -1,0 +1,1 @@
+const o={short:["yan","fev","mar","apr","may","iyn","iyl","avg","sen","okt","noy","dek"],long:["yanvar","fevral","mart","aprel","may","iyun","iyul","avgust","sentabr","oktabr","noyabr","dekabr"]},t=(a,n)=>o[n][a]??"",y=(a,n,r)=>`${a}-${t(n,r)}`,e=a=>a.length<=1?a.join(""):`${a.slice(0,-1).join(", ")} va ${a[a.length-1]}`;export{y as a,e as u};

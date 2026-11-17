@@ -1,0 +1,1 @@
+const r=e=>e.replace(/^notification\.(message\.(?=delivery_))?/,""),t=e=>e==="notification.message.rejected"?"FIX_ADDRESS":e==="notification.template.render_failed"?"FIX_TEMPLATE":"TRANSIENT";export{t as r,r as s};

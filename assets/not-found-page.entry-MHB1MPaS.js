@@ -1,0 +1,1 @@
+import{u as o,j as e,V as n,L as s}from"./index-D1U1ZJ0y.js";const r=()=>{const{t}=o();return e.jsx(n,{tone:"empty",icon:"search-off",title:t("notFound.title"),description:t("notFound.description"),action:e.jsx(s,{to:"/",className:"text-m3 text-electro-600 underline hover:text-electro-700",children:t("actions.goHome")})})};export{r as NotFoundPage};
