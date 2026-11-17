@@ -1,0 +1,1 @@
+import{j as e,c as n,t as r}from"./index-DkOcJtWx.js";const c=({name:s,className:t})=>e.jsx("span",{"aria-hidden":"true",className:r("flex items-center justify-center",t),children:e.jsx(n,{name:s,size:16})});export{c as I};

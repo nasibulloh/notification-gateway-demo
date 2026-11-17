@@ -1,0 +1,1 @@
+import{_ as t,x as s,F as e,B as a,A as o,w as n}from"./index-DkOcJtWx.js";const c=["AT_LEAST_ONCE","AT_MOST_ONCE"],i=5,_=[2,360,720,1440,2880],m=t(c),r=s({code:o(),mode:m,ttlMinutes:a().int().positive(),autoRetry:e(),attempts:a().int().min(1).max(i),manualResend:e()}),S=s({categories:n(r)});export{c as D,i as M,_ as T,S as d};

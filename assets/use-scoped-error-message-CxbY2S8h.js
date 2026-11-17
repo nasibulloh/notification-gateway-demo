@@ -1,0 +1,1 @@
+import{u as a,s as n}from"./index-DkOcJtWx.js";import{u}from"./use-api-error-message-DvDZFf36.js";const d=s=>{const{t:e}=a(),o=u();return c=>{const r=n(c),t=s[r.code];return t?{text:e(t),traceReference:r.traceId?e("errors:traceReference",{traceId:r.traceId}):null}:o(r)}};export{d as u};

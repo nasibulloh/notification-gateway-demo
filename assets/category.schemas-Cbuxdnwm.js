@@ -1,0 +1,1 @@
+import{p as e}from"./page-schema-C53X7lEL.js";import{x as a,F as c,A as o}from"./index-DkOcJtWx.js";const t=50,s=/^[a-z0-9_]+(?:-[a-z0-9_]+)*$/,i=a({code:o(),active:c()}),m=e(i),d=a({code:o().trim().min(1,"categories:validation.codeRequired").max(t,"categories:validation.codeTooLong").regex(s,"categories:validation.codeInvalid")});export{s as C,t as a,m as b,d as c,i as d};

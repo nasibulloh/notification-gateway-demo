@@ -1,1 +1,0 @@
-import{u as r,j as s}from"./index-D1U1ZJ0y.js";import{P as a}from"./pill.component-BekrEZga.js";const i={SENT:"ok",FAILED:"failed",RETRYING:"wait",SKIPPED:"neutral",QUEUED:"wait"},E=({status:t})=>{const{t:o}=r("monitoring");return s.jsx(a,{tone:i[t],dot:!0,children:o(`status.${t}`)})};export{E as D};
